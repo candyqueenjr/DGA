@@ -19,7 +19,7 @@ a {
 }
 
 .mt-140 {
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 .mt-120 {
@@ -27,15 +27,15 @@ a {
 }
 
 .mt-100 {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .mt-80 {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .mt-60 {
-    margin-top: 120px;
+    margin-top: 60px;
 }
 
 .nav-link {
@@ -45,4 +45,67 @@ a {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    text-align: center;
 }
+
+.banner-header {
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.banner-header2 {
+    width: 580px;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    background: radial-gradient(87.16% 2178.88% at 0% 50%, #658BFF 2.08%, #E07FEA 37.5%, #FF9D88 58.85%, #FF7FBB 79.17%, #658BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 400%;
+    animation: animate 18s linear infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+#wrapper{
+    display: flex;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle{
+    position: absolute;
+    color: #fff;
+    border-radius: 100%;
+    width: 280px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 33.5px;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  
+  .green{
+    background: green;
+  }
