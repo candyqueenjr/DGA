@@ -3,6 +3,7 @@
 
 * {
     background-color: #111;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,6 +47,8 @@ a {
     line-height: 17px;
     color: #FFFFFF;
     text-align: center;
+    padding-left: 30px;
+    display: inline;
 }
 
 .banner-header {
@@ -58,7 +61,7 @@ a {
 }
 
 .banner-header2 {
-    width: 580px;
+    width: 100%;
     font-family: 'Mriya Grotesk';
     font-style: normal;
     font-weight: 900;
@@ -69,7 +72,7 @@ a {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-size: 400%;
-    animation: animate 18s linear infinite;
+    animation: animate 15s linear infinite;
 }
 
 @keyframes animate{
@@ -81,31 +84,286 @@ a {
     }
 }
 
-#wrapper{
+.contact-btn {
     display: flex;
-    position: relative;
-    height: 150px;
-    width: 150px;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-  }
-  
-  .circle{
-    position: absolute;
-    color: #fff;
-    border-radius: 100%;
-    width: 280px;
-    height: 60px;
-    border: 1px solid #FFFFFF;
-    border-radius: 33.5px;
+    text-indent: 30px;
     font-family: 'Mriya Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
-  }
-  
-  .green{
-    background: green;
-  }
+    width: 280px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 33.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-btn > img {
+    padding-right: 20px;
+ }
+
+.grey-text {
+    margin-top: 60px;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.shopify-link {
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: 1px solid #ffffff41;
+    border-radius: 4px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.shopify-link > img {
+    width: 70px;
+    height: 20px;
+}
+/* 
+.buttons {
+    position: relative;
+} */
+
+/* .header-buttons1 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border-left: 1px solid #ffffff41;
+    border-right: none;
+    border-bottom: none;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -120px;
+
+}
+
+.header-buttons2 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border-left: 1px solid #ffffff41;
+    border-right: none;
+    border-bottom: none;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -120px;
+    right: -100px;
+}
+
+.header-buttons3 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 130px;
+}
+
+.header-buttons4 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.header-buttons5 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.header-buttons6 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+} */
+
+
+.header-buttons {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 333px;
+    transition: 0.5s ease;
+}
+
+.header-buttons:hover {
+    background: url(/img/1.png);
+}
+
+/* .header-buttons:before {
+    content: "Web Development";
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px; 
+} */
+
+.header-buttons1 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-buttons1:hover {
+    background: url(/img/2.png);
+}
+
+.header-buttons2 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 255px;
+    right: 333px;
+}
+
+.header-buttons2:hover {
+    background: url(/img/3.png);
+}
+
+.header-buttons3 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 255px;
+    right: 0;
+}
+
+.header-buttons3:hover {
+    background: url(/img/4.png);
+}
+
+.header-buttons4 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 510px;
+    right: 333px;
+}
+
+.header-buttons4:hover {
+    background: url(/img/5.png);
+}
+
+.header-buttons5 {
+    height: 255px;
+    width: 333px;
+    border-radius: 0px;
+    border: 1px solid #ffffff41;
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 510px;
+    right: 0;
+}
+
+.header-buttons5:hover {
+    background: url(/img/6.png);
+}
