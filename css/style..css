@@ -1,369 +1,305 @@
-
-
-
 * {
-    background-color: #111;
-    box-sizing: border-box;
+  background-color: #111;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #111;
+  background-color: #111;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-link:hover {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mt-140 {
-    margin-top: 140px;
+  margin-top: 140px;
 }
 
 .mt-120 {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .mt-100 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .mt-80 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .mt-60 {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .nav-link {
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-left: 30px;
-    display: inline;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 30px;
+  display: inline;
 }
 
 .banner-header {
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 48px;
-    line-height: 58px;
-    color: #FFFFFF;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
 }
 
 .banner-header2 {
-    width: 100%;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    background: radial-gradient(87.16% 2178.88% at 0% 50%, #658BFF 2.08%, #E07FEA 37.5%, #FF9D88 58.85%, #FF7FBB 79.17%, #658BFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 400%;
-    animation: animate 15s linear infinite;
+  width: 100%;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  background: radial-gradient(
+    87.16% 2178.88% at 0% 50%,
+    #658bff 2.08%,
+    #e07fea 37.5%,
+    #ff9d88 58.85%,
+    #ff7fbb 79.17%,
+    #658bff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 400%;
+  animation: animate 15s linear infinite;
 }
 
-@keyframes animate{
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 400%;
-    }
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
 
 .contact-btn {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-indent: 30px;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-    color: #FFFFFF;
-    width: 280px;
-    height: 60px;
-    border: 1px solid #FFFFFF;
-    border-radius: 33.5px;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-indent: 30px;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 280px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 33.5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-btn > img {
-    padding-right: 20px;
- }
+  padding-right: 20px;
+}
 
 .grey-text {
-    margin-top: 60px;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-    color: #FFFFFF;
-    opacity: 0.2;
+  margin-top: 60px;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.2;
 }
 
 .shopify-link {
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    border: 1px solid #ffffff41;
-    border-radius: 4px;
-    width: 180px;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 20px;
-    text-align: center;
-    align-items: center;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: 1px solid #ffffff41;
+  border-radius: 4px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .shopify-link > img {
-    width: 70px;
-    height: 20px;
+  width: 70px;
+  height: 20px;
 }
-/* 
-.buttons {
-    position: relative;
-} */
-
-/* .header-buttons1 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border-left: 1px solid #ffffff41;
-    border-right: none;
-    border-bottom: none;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: -120px;
-
-}
-
-.header-buttons2 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border-left: 1px solid #ffffff41;
-    border-right: none;
-    border-bottom: none;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: -120px;
-    right: -100px;
-}
-
-.header-buttons3 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 130px;
-}
-
-.header-buttons4 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-
-}
-
-.header-buttons5 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-
-}
-
-.header-buttons6 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-
-} */
-
 
 .header-buttons {
-    height: 255px;
-    width: 333px;
+    height: 30vh;
+    width: 25vw; 
     border-radius: 0px;
     border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
+    font-family: "Mriya Grotesk";
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
     top: 0;
-    right: 333px;
-    transition: 0.5s ease;
-}
-
-.header-buttons:hover {
-    background: url(/img/1.png);
-}
-
-/* .header-buttons:before {
-    content: "Web Development";
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    padding: 10px; 
-} */
+    right: 25vw;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: conic-gradient(from -0.26deg at 50% 33.33%, rgba(173, 223, 255, 0) 0deg, rgba(255, 127, 187, 0) 93.75deg, rgba(101, 139, 255, 0) 247.5deg, rgba(255, 127, 187, 0) 360deg);
+  }
+  
+  .header-buttons:hover {
+      background: conic-gradient(from -0.26deg at 50% 33.33%, rgba(173, 223, 255, 1) 0deg, rgba(255, 127, 187, 1) 93.75deg, rgba(101, 139, 255, 1) 247.5deg, rgba(255, 127, 187, 1) 360deg);
+      transition: background 2s ease-in-out;
+  }
+  
 
 .header-buttons1 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    right: 0;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .header-buttons1:hover {
-    background: url(/img/2.png);
+  background: url(/img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-buttons2 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 255px;
-    right: 333px;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 30vh;
+  right: 25vw;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .header-buttons2:hover {
-    background: url(/img/3.png);
+  background: url(/img/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-buttons3 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 255px;
-    right: 0;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 30vh;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .header-buttons3:hover {
-    background: url(/img/4.png);
+  background: url(/img/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-buttons4 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 510px;
-    right: 333px;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 60vh;
+  right: 25vw;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .header-buttons4:hover {
-    background: url(/img/5.png);
+  background: url(/img/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-buttons5 {
-    height: 255px;
-    width: 333px;
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 510px;
-    right: 0;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 60vh;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .header-buttons5:hover {
-    background: url(/img/6.png);
+  background: url(/img/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
