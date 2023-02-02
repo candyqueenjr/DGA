@@ -408,3 +408,58 @@ hr {
     background-position: 0% 50%;
   }
 }
+
+
+
+.slide {
+  width: 100vw;
+  height: 120vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.one {
+  width: 100vw;
+}
+
+.two {
+  width: 100vw;
+
+}
+
+.three {
+  width: 100vw;
+
+}
+
+.four {
+  width: 100vw;
+
+}
+
+.outer-wrapper {
+  width: 120vh;
+  height: 120vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navigation {
+  position: sticky;
+  overflow: hidden;
+}
