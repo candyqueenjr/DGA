@@ -5,6 +5,7 @@
 
 body {
   background-color: #111;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,6 +15,10 @@ a {
 
 .nav-link:hover {
   color: #ffffff;
+}
+
+.mt-200 {
+  margin-top: 200px;
 }
 
 .mt-140 {
@@ -34,6 +39,12 @@ a {
 
 .mt-60 {
   margin-top: 60px;
+}
+
+hr {
+  color: rgba(65, 65, 65, 1);
+  width: 70vw;
+  text-align: center;
 }
 
 .nav-link {
@@ -171,6 +182,7 @@ a {
   .header-buttons:hover {
       background: conic-gradient(from -0.26deg at 50% 33.33%, rgba(173, 223, 255, 1) 0deg, rgba(255, 127, 187, 1) 93.75deg, rgba(101, 139, 255, 1) 247.5deg, rgba(255, 127, 187, 1) 360deg);
       transition: background 2s ease-in-out;
+      content: 'The idea of the Project:The idea of the project is to create an IT';
   }
   
 
@@ -195,7 +207,7 @@ a {
 }
 
 .header-buttons1:hover {
-  background: url(/img/2.png);
+  background: url(/img/4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -221,7 +233,7 @@ a {
 }
 
 .header-buttons2:hover {
-  background: url(/img/3.png);
+  background: url(/img/5.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -247,7 +259,7 @@ a {
 }
 
 .header-buttons3:hover {
-  background: url(/img/4.png);
+  background: url(/img/6.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -273,7 +285,7 @@ a {
 }
 
 .header-buttons4:hover {
-  background: url(/img/5.png);
+  background: url(/img/2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -299,7 +311,92 @@ a {
 }
 
 .header-buttons5:hover {
-  background: url(/img/6.png);
+  background: url(/img/1.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.services-header {
+  font-family: 'Mriya Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.nav-link {
+  font-family: 'Mriya Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff41;
+}
+
+.nav-link.active {
+  color: #ffffff;
+}
+
+.nav-bar > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.design {
+  font-family: 'Mriya Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.description {
+  width: 280px;
+  height: 500px;
+  font-family: 'Mriya Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  display: flex
+}
+
+.apps > img {
+  width: 280px;
+  height: 25px;
+}
+
+.ball {
+  width: 380px;
+  height: 380px;
+  border-radius: 100%;
+  background-image: radial-gradient(87.16% 218.88% at 0% 50%, #658BFF 2.08%, #E07FEA 37.5%, #FF9D88 58.85%, #FF7FBB 79.17%, #658BFF 100%);
+  box-shadow: inset 0px 0px 60px 2px #FFFFFF;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: animate2 3s infinite linear;
+  -webkit-animation: animate2 3s infinite linear;
+  -moz-animation: animate2 3s infinite linear;
+  -ms-animation: animate2 3s infinite linear;
+  -o-animation: animate2 3s infinite linear;
+  background-size: 100%;
+}
+
+@keyframes animate2 {
+  0% {
+    background-position: 0 85%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0 85%;
+  }
 }
