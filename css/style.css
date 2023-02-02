@@ -157,34 +157,45 @@ hr {
 }
 
 .header-buttons {
-    height: 30vh;
-    width: 25vw; 
-    border-radius: 0px;
-    border: 1px solid #ffffff41;
-    font-family: "Mriya Grotesk";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    color: #ffffff;
-    position: absolute;
-    top: 0;
-    right: 25vw;
-    display: flex;
-    align-items: flex-end;
-    padding: 30px;
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: conic-gradient(from -0.26deg at 50% 33.33%, rgba(173, 223, 255, 0) 0deg, rgba(255, 127, 187, 0) 93.75deg, rgba(101, 139, 255, 0) 247.5deg, rgba(255, 127, 187, 0) 360deg);
-  }
-  
-  .header-buttons:hover {
-      background: conic-gradient(from -0.26deg at 50% 33.33%, rgba(173, 223, 255, 1) 0deg, rgba(255, 127, 187, 1) 93.75deg, rgba(101, 139, 255, 1) 247.5deg, rgba(255, 127, 187, 1) 360deg);
-      transition: background 2s ease-in-out;
-      content: 'The idea of the Project:The idea of the project is to create an IT';
-  }
-  
+  height: 30vh;
+  width: 25vw;
+  border-radius: 0px;
+  border: 1px solid #ffffff41;
+  font-family: "Mriya Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 25vw;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: conic-gradient(
+    from -0.26deg at 50% 33.33%,
+    rgba(173, 223, 255, 0) 0deg,
+    rgba(255, 127, 187, 0) 93.75deg,
+    rgba(101, 139, 255, 0) 247.5deg,
+    rgba(255, 127, 187, 0) 360deg
+  );
+  animation: gradient 15s ease infinite;
+
+}
+
+.header-buttons:hover {
+  background: conic-gradient(
+    from -0.26deg at 50% 33.33%,
+    rgba(173, 223, 255, 1) 0deg,
+    rgba(255, 127, 187, 1) 93.75deg,
+    rgba(101, 139, 255, 1) 247.5deg,
+    rgba(255, 127, 187, 1) 360deg
+  );
+}
 
 .header-buttons1 {
   height: 30vh;
@@ -316,18 +327,17 @@ hr {
   background-size: cover;
 }
 
-
 .services-header {
-  font-family: 'Mriya Grotesk';
+  font-family: "Mriya Grotesk";
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nav-link {
-  font-family: 'Mriya Grotesk';
+  font-family: "Mriya Grotesk";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -345,58 +355,56 @@ hr {
 }
 
 .design {
-  font-family: 'Mriya Grotesk';
+  font-family: "Mriya Grotesk";
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
   line-height: 38px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .description {
   width: 280px;
-  height: 500px;
-  font-family: 'Mriya Grotesk';
+  height: 240px;
+  font-family: "Mriya Grotesk";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.8;
-  display: flex
+  display: flex;
 }
 
 .apps > img {
   width: 280px;
   height: 25px;
+  margin-left: 120px;
+}
+
+.apps > .description {
+  margin-left: 120px;
 }
 
 .ball {
-  width: 380px;
   height: 380px;
+  width: 380px;  
+  background: radial-gradient(87.16% 2178.88% at 0% 50%, #658BFF 10.08%, #E07FEA 47.5%, #FF9D88 58.85%, #FF7FBB 80.17%, #658BFF 100%, #FF9D88 120%);
+  background-size: 400% 100%;
+  animation: gradient 15s ease-in infinite;
+  box-shadow: inset 0px 0px 60px 2px #ffffff;
+  transform: rotate(75deg);
   border-radius: 100%;
-  background-image: radial-gradient(87.16% 218.88% at 0% 50%, #658BFF 2.08%, #E07FEA 37.5%, #FF9D88 58.85%, #FF7FBB 79.17%, #658BFF 100%);
-  box-shadow: inset 0px 0px 60px 2px #FFFFFF;
-  transform: rotate(90deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: animate2 3s infinite linear;
-  -webkit-animation: animate2 3s infinite linear;
-  -moz-animation: animate2 3s infinite linear;
-  -ms-animation: animate2 3s infinite linear;
-  -o-animation: animate2 3s infinite linear;
-  background-size: 100%;
 }
 
-@keyframes animate2 {
+@keyframes gradient {
   0% {
-    background-position: 0 85%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 20%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0 85%;
+    background-position: 0% 50%;
   }
 }
